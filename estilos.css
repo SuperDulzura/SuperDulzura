@@ -9,11 +9,13 @@ body {
     min-height: 100vh;
     */
     margin: 0;
+    width: 100vw;
     
 }
 
 html {
     scroll-behavior: smooth;
+    touch-action: manipulation;
 }
 
 /*Menú de la página*/
@@ -27,7 +29,8 @@ nav {
     padding-right: 5%;
     font-weight: bold;
     font-family: 'Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode';
-    
+    position: relative;
+    height: auto;
 }
 
 ul li {
@@ -62,6 +65,7 @@ a:hover {
     padding:0;
     overflow: hidden;
     border-radius: 10px;
+   
     
     
 }
@@ -81,6 +85,7 @@ a:hover {
     margin-top: 10px;
     padding-right: 0;
     font-size: 15px;
+    
    
     
     
@@ -432,7 +437,9 @@ footer {
 }
 
 .footer{
-    background-position-y:400px ;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /*Agrandar/achicar imagen*/
