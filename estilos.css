@@ -431,6 +431,9 @@ footer {
     color: rgb(183, 0, 255);
 }
 
+.footer{
+    background-position-y:400px ;
+}
 
 /*Agrandar/achicar imagen*/
 
